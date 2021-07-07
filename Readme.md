@@ -50,17 +50,17 @@ If you enjoyed this project, you can buy me a coffee so that I can make more of 
 
 # 푸드 워페어: 핫도그 vs 피자
 ## 이게 뭔가요?
-포톤 2 연구용으로 만든 간단한 멀티플레이어 게임 프로젝트입니다.
+포톤 2 연구용으로 만든 간단한 멀티플레이 게임 프로젝트입니다.
 
 ## 어떻게 실행하나요?
-싱글플레이의 경우 그냥 유니티에서 열고 플레이하시거나 빌드에서 플레이하시면 됩니다.
+싱글플레이의 경우 그냥 유니티에서 열고 플레이하시거나 빌드해서 플레이하시면 됩니다.
 
 멀티플레이어는 Assets/Photon/PhotonUnityNetworking/Resources에 있는 PhotonServerSettings에 App ID를 설정해줘야 합니다.
 
 App ID는 포톤 대시보드에서 20 CCU 사용까지 무료로 발급받을 수 있습니다.
 https://dashboard.photonengine.com/
 
-App ID 설정 후, Fixed Region을 변경해주세요. 저는 한국에 살기 때문에 "kr"로 해봤지만, 공백으로 설정하면 포톤이 알아서 최적의 리젼으로 설정해준다고 합니다.
+App ID 설정 후, Fixed Region을 변경해주세요. 저는 한국에 살기 때문에 "kr"로 해놨지만, 공백으로 설정하면 포톤이 알아서 최적의 리젼으로 설정해준다고 합니다.
 
 빌드 후 포톤 네트워크에 연결이 안된다면, 방화벽을 끄고 시도해보시기 바랍니다.
 
