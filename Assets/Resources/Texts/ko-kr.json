@@ -1,0 +1,97 @@
+{
+    "View": {
+        "Main": {
+            "Title": "푸드 워페어: 피자 vs 핫도그",
+            "Singleplayer": "혼자 하기!",
+            "Multiplayer": "멀티플레이!",
+            "ExitGame": "게임 종료"
+        },
+        "PlayerSetup": {
+            "Title": "플레이어 이름을 입력해주세요:",
+            "PlayerNameInputPlaceholder": "플레이어 이름... (최대 15글자)",
+            "Play": "플레이!",
+            "Exit": "나가기",
+            "RequiredPlayerName": "이름을 입력해주세요."
+        },
+        "ServerList": {
+            "Title": "멀티플레이어",
+            "Exit": "나가기",
+            "Refresh": "새고로침",
+            "CreateServer": "서버 생성",
+            "ServerName": "서버 이름",
+            "Players": "플레이어",
+            "Map": "맵",
+            "Ping": "핑"
+        },
+        "CreateServer": {
+            "Title": "서버 생성",
+            "Exit": "나가기",
+            "ServerName": "서버 이름",
+            "ServerNamePlaceholder": "서버 이름... (최대 20자)",
+            "Map": "맵",
+            "MaxPlayers": "최대 플레이어 수",
+            "CreateServer": "서버 만들기!",
+            "RequiredServerName": "서버 이름을 입력해주세요!"
+        },
+        "ServerRoom": {
+            "Title": "멀티플레이어 로비",
+            "Leave": "나가기",
+            "Play": "게임 시작!",
+            "ServerName": "서버 이름",
+            "Map": "맵",
+            "MaxPlayers": "최대 플레이어 수",
+            "Chat": "채팅",
+            "ChatPlaceholder": "[엔터]로 채팅 메시지 보내기...",
+            "Send": "보내기",
+            "AskKickPlayer": "{0}님을 강퇴하시겠습니까?",
+            "PlayerKicked": "강퇴 되었습니다.",
+            "PlayerKickFailure": "강퇴에 실패했습니다.",
+            "ServerLostConnection": "서버와 연결이 끊어졌습니다.",
+            "NeedMorePlayers": "최소 {0}명 이상의 플레이어가 있어야 플레이 가능합니다.",
+            "OnlyMasterCanStartGame": "마스터 유저만 게임 시작이 가능합니다."
+        },
+        "Dialog": {
+            "Close": "닫기",
+            "Confirm": "확인"
+        }
+    },
+    "Game": {
+        "Score": "점수",
+        "Highscore": "하이스코어",
+        "Wave": "웨이브",
+        "ProtectPizza": "피자 레스토랑을 사수하세요!",
+        "RestaurantDestroyed": "레스토랑이 파괴되었습니다!",
+        "YourScore": "당신의 점수",
+        "Replay": "[스페이스]를 눌러 재시작 / [ESC]를 눌러 메인으로 이동",
+        "HP": "체력",
+        "Controls": "위로: 가속\n아래로: 감속\n왼쪽으로/오른쪽으로: 좌우 회전\n스페이스: 사격\nR: 자폭",
+        "MultiplayerControls": "T: 채팅",
+        "ProtectPizzaFromEnemies": "미친 핫도그 광신도들로부터 피자 레스토랑을 사수하세요!",
+        "WaveStart": "웨이브 {0} 시작!",
+        "NextWaveIncoming": "다음 웨이브가 곧 시작됩니다!",
+        "ChooseAnUpgrade": "업그레이드 선택",
+        "SendMessagePlaceholder": "엔터를 눌러 채팅 전송",
+        "Upgrade": {
+            "MaxHP": "최대 체력 +10",
+            "ProjectileSpeed": "투사체 속도 +20%",
+            "AttackSpeed": "공격 속도 +0.03s",
+            "ProjectileSpread": "투사체 분산도 +2.5%",
+            "MoveSpeed": "이동 속도 +20%",
+            "RotatingSpeed": "회전 속도 +20%",
+            "RespawnSpeed": "리스폰 시간 -0.15s"
+        }
+    },
+    "Multiplayer": {
+        "Message": {
+            "Disconnected": "연결 끊김",
+            "CreateServerFailure": "서버 생성에 실패하였습니다.",
+            "JoinServerFailure": "서버에 접속할 수 없습니다.",
+            "Connecting": "연결 중...",
+            "FetchingServers": "서버 목록 불러오는 중...",
+            "JoiningServer": "{0} 서버에 접속 중...",
+            "CreatingServer": "서버 생성 중...",
+            "InvalidServer": "잘못된 서버입니다.",
+            "HostLeft": "호스트가 접속을 종료하였습니다."
+        }
+    }
+}

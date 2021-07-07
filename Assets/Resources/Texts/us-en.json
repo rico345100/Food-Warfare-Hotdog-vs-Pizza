@@ -1,0 +1,97 @@
+{
+    "View": {
+        "Main": {
+            "Title": "Food Warfare: Pizza vs Hotdog",
+            "Singleplayer": "Play Solo!",
+            "Multiplayer": "Multiplayer!",
+            "ExitGame": "ExitGame"
+        },
+        "PlayerSetup": {
+            "Title": "Name your player:",
+            "PlayerNameInputPlaceholder": "Enter the name... (Max 15 characters)",
+            "Play": "Play!",
+            "Exit": "Exit",
+            "RequiredPlayerName": "Enter your name."
+        },
+        "ServerList": {
+            "Title": "Multiplayer",
+            "Exit": "Exit",
+            "Refresh": "Refresh",
+            "CreateServer": "Create Server",
+            "ServerName": "Server Name",
+            "Players": "Players",
+            "Map": "Map",
+            "Ping": "Ping"
+        },
+        "CreateServer": {
+            "Title": "Create Server",
+            "Exit": "Exit",
+            "ServerName": "Server Name",
+            "ServerNamePlaceholder": "Server Name... (Max 20 characters)",
+            "Map": "Map",
+            "MaxPlayers": "Max Players",
+            "CreateServer": "Create Server!",
+            "RequiredServerName": "Server Name is required!"
+        },
+        "ServerRoom": {
+            "Title": "Multiplayer Lobby",
+            "Leave": "Leave",
+            "Play": "PLAY!",
+            "ServerName": "Server Name",
+            "Map": "Map",
+            "MaxPlayers": "Max Players",
+            "Chat": "Chat",
+            "ChatPlaceholder": "[Enter] to send...",
+            "Send": "Send",
+            "AskKickPlayer": "Kick {0}?",
+            "PlayerKicked": "Kicked.",
+            "PlayerKickFailure": "Failed to kicked.",
+            "ServerLostConnection": "The connection to the server was lost.",
+            "NeedMorePlayers": "You need at least {0} players to start multiplayer.",
+            "OnlyMasterCanStartGame": "Only master can start the game."
+        },
+        "Dialog": {
+            "Close": "Close",
+            "Confirm": "Confirm"
+        }
+    },
+    "Game": {
+        "Score": "Score",
+        "Highscore": "Highscore",
+        "Wave": "Wave",
+        "ProtectPizza": "Protect Pizza Restaurant!",
+        "RestaurantDestroyed": "RESTAURANT DESTROYED!",
+        "YourScore": "YOUR SCORE",
+        "Replay": "Press [Space] to play again or [Escape] to leave!",
+        "HP": "HP",
+        "Controls": "Up: Acceleration\nDown: Deceleration\nLeft/Right: Turn L/R\nSpace: Fire Weapon\nR: Self-Destruction",
+        "MultiplayerControls": "T: Chat",
+        "ProtectPizzaFromEnemies": "Protect your pizza store from crazy hotdog maniacs!",
+        "WaveStart": "Wave {0} Start!",
+        "NextWaveIncoming": "Next wave begins shortly!",
+        "ChooseAnUpgrade": "Choose an upgrade:",
+        "SendMessagePlaceholder": "Press Enter to send message...",
+        "Upgrade": {
+            "MaxHP": "Max HP +10",
+            "ProjectileSpeed": "Projectile Speed +20%",
+            "AttackSpeed": "Attack Speed +0.03s",
+            "ProjectileSpread": "Projectile Spread +2.5%",
+            "MoveSpeed": "Move Speed +20%",
+            "RotatingSpeed": "Rotating Speed +20%",
+            "RespawnSpeed": "Respawn Speed -0.15s"
+        }
+    },
+    "Multiplayer": {
+        "Message": {
+            "Disconnected": "Disconnected",
+            "CreateServerailure": "Failed to create a server!",
+            "JoinServerFailure": "Failed to join a server!",
+            "Connecting": "Connecting...",
+            "FetchingServers": "Getting Servers...",
+            "JoiningServer": "Joining to {0}...",
+            "CreatingServer": "Creating Server...",
+            "InvalidServer": "Invalid Server",
+            "HostLeft": "The host has left the game."
+        }
+    }
+}
